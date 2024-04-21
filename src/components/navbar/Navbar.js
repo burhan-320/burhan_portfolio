@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="flex ">
         {/* <img src={logo} alt="logo" /> */}
         <img className="img" src={bannerImg} alt="" />
-        <h1 className="text-3xl ml-2 pt-2 font-bold">Rabbani</h1>
+        <h1 className="text-3xl ml-2 pt-2 font-bold">RABBANI</h1>
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">

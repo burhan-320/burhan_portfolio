@@ -13,7 +13,7 @@ const Footer = () => {
         {/* <img className="w-32" src={logo} alt="logo" /> */}
         <div className="flex">
           <img className="img" src={bannerImg} alt="" />
-          <h1 className="text-3xl ml-2 pt-2 font-bold">Rabbani</h1>
+          <h1 className="text-3xl ml-2 pt-2 font-bold">RABBANI</h1>
         </div>
         <div className="flex gap-4">
           <a href="https://www.facebook.com/profile.php?id=100092129036034">
