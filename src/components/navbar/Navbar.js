@@ -6,12 +6,16 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { logo } from "../../assets/index";
 import { navLinksdata } from "../../constants";
 
+import { bannerImg } from "../../assets/index";
+
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
-      <div>
-        <img src={logo} alt="logo" />
+      <div className="flex ">
+        {/* <img src={logo} alt="logo" /> */}
+        <img className="img" src={bannerImg} alt="" />
+        <h1 className="text-3xl ml-2 pt-2 font-bold">Rabbani</h1>
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">

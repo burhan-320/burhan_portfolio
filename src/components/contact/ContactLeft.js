@@ -1,5 +1,6 @@
-import React from 'react'
+import React from "react";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { AiOutlineGithub } from "react-icons/ai";
 import { contactImg } from "../../assets/index";
 
 const ContactLeft = () => {
@@ -11,19 +12,20 @@ const ContactLeft = () => {
         alt="contactImg"
       />
       <div className="flex flex-col gap-4">
-        <h3 className="text-3xl font-bold text-white">John Doe</h3>
-        <p className="text-lg font-normal text-gray-400">
-          MERN Stack Developer
-        </p>
+        <h3 className="text-3xl font-bold text-white">Burhan Uddin</h3>
+        <p className="text-lg font-normal text-gray-400">Front-end Developer</p>
         <p className="text-base text-gray-400 tracking-wide">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
           ipsam autem cumque, accusantium dicta odio.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+968 97859628</span>
+          Phone: <span className="text-lightText">+92306 8866 333</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email: <span className="text-lightText">noor.jsdivs@gmail.com</span>
+          Email: <span className="text-lightText">burhanrabbani320.com</span>
+        </p>
+        <p className="text-base text-gray-400 flex items-center gap-2">
+          Email : <span className="text-lightText">burhanbur320.com</span>
         </p>
       </div>
       <div className="flex flex-col gap-4">
@@ -38,10 +40,13 @@ const ContactLeft = () => {
           <span className="bannerIcon">
             <FaLinkedinIn />
           </span>
+          <span className="bannerIcon">
+            <AiOutlineGithub />
+          </span>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default ContactLeft
+export default ContactLeft;
