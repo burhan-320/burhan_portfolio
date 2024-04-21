@@ -1,6 +1,6 @@
-import React from 'react'
-import { motion } from 'framer-motion';
-import ResumeCard from './ResumeCard';
+import React from "react";
+import { motion } from "framer-motion";
+import ResumeCard from "./ResumeCard";
 
 const Education = () => {
   return (
@@ -12,25 +12,25 @@ const Education = () => {
       {/* part one */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">1998 - 2010</p>
+          <p className="text-sm text-designColor tracking-[4px]">2007 - 2025</p>
           <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="BSc in Computer Science"
-            subTitle="University of DVI (2006 - 2010)"
-            result="3.90/4"
+            title="BSc in Software Engineering"
+            subTitle="University of  Science & Technology (2021 - 2025)"
+            result="3.32/4"
             des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
           />
           <ResumeCard
-            title="AS - Science & Information"
-            subTitle="SuperKing College (2001 - 2005)"
-            result="4.75/5"
+            title="FSC - Pre Engineering"
+            subTitle="Govt Ghazi Umara Khan Degree College (2017 - 2020)"
+            result="828/1100"
             des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
           />
           <ResumeCard
             title="Secondary School Education"
-            subTitle="Kingstar Secondary School (1998 - 2000)"
+            subTitle="Sadbar kaly  Secondary School (2015 - 2017)"
             result="5.00/5"
             des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
           />
@@ -40,32 +40,32 @@ const Education = () => {
 
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
+          <p className="text-sm text-designColor tracking-[4px]">2022 - 2024</p>
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
+            title="Full Stack Developer"
+            subTitle="Web development - (2023 - Present)"
+            result="Islamabad"
             des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            title="Front-end Developer "
+            subTitle="Apple Developer Team - (2022 - 2023)"
+            result="Islamabad"
+            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Islamabad isn't easy."
           />
           <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            title="Web Developer Training"
+            subTitle="React JS  - (2021 - 2022)"
+            result="Bannu"
+            des="The Bunnu economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
           />
         </div>
       </div>
     </motion.div>
   );
-}
+};
 
-export default Education
+export default Education;
