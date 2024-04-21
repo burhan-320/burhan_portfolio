@@ -2,6 +2,8 @@ import React from "react";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 // import { logo } from "../../assets/index";
 
+import { AiOutlineGithub } from "react-icons/ai";
+
 import { bannerImg } from "../../assets/index";
 
 const Footer = () => {
@@ -14,15 +16,21 @@ const Footer = () => {
           <h1 className="text-3xl ml-2 pt-2 font-bold">Rabbani</h1>
         </div>
         <div className="flex gap-4">
-          <span className="bannerIcon">
-            <FaFacebookF />
-          </span>
-          <span className="bannerIcon">
-            <FaTwitter />
-          </span>
-          <span className="bannerIcon">
-            <FaLinkedinIn />
-          </span>
+          <a href="https://www.facebook.com/profile.php?id=100092129036034">
+            <span className="bannerIcon">
+              <FaFacebookF />
+            </span>
+          </a>
+          <a href="https://www.linkedin.com/in/burhan-bur320/">
+            <span className="bannerIcon">
+              <FaLinkedinIn />
+            </span>
+          </a>
+          <a href="https://github.com/burhan-320">
+            <span className="bannerIcon">
+              <AiOutlineGithub />
+            </span>
+          </a>
         </div>
       </div>
       <div className="w-full h-full">

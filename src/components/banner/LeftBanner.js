@@ -27,9 +27,10 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I use animation as a third dimension by which to simplify experiences
-          and kuiding thro each and every interaction. I'm not adding motion
-          just to spruce things up, but doing it in ways that.
+          Dedicated and passionate student with a versatile skill set,
+          demonstrating a commitment to continuous learning and adaptability.
+          Eager to contribute my diverse skills to collaborative and innovative
+          projects
         </p>
       </div>
       {/* Media */}

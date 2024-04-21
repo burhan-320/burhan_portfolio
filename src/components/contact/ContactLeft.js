@@ -15,8 +15,10 @@ const ContactLeft = () => {
         <h3 className="text-3xl font-bold text-white">Burhan Uddin</h3>
         <p className="text-lg font-normal text-gray-400">Front-end Developer</p>
         <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam autem cumque, accusantium dicta odio.
+          Dedicated and passionate student with a versatile skill set,
+          demonstrating a commitment to continuous learning and adaptability.
+          Eager to contribute my diverse skills to collaborative and innovative
+          projects.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+92306 8866 333</span>
@@ -31,18 +33,24 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
-            <FaFacebookF />
-          </span>
+          <a href="https://www.facebook.com/profile.php?id=100092129036034">
+            <span className="bannerIcon">
+              <FaFacebookF />
+            </span>
+          </a>
           <span className="bannerIcon">
             <FaTwitter />
           </span>
-          <span className="bannerIcon">
-            <FaLinkedinIn />
-          </span>
-          <span className="bannerIcon">
-            <AiOutlineGithub />
-          </span>
+          <a href="https://www.linkedin.com/in/burhan-bur320/">
+            <span className="bannerIcon">
+              <FaLinkedinIn />
+            </span>
+          </a>
+          <a href="https://github.com/burhan-320">
+            <span className="bannerIcon">
+              <AiOutlineGithub />
+            </span>
+          </a>
         </div>
       </div>
     </div>
